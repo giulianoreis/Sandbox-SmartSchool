@@ -2,6 +2,10 @@ namespace SmartSchool.WebAPI.Models
 {
     public class AlunoDisciplina
     {
+        public AlunoDisciplina()
+        {
+        }
+
         public AlunoDisciplina(int alunoId, int disciplinaID)
         {
             this.AlunoId = alunoId;
